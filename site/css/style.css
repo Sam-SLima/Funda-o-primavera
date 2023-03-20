@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8fac4d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.posicionamento {
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho {
+    background-color: #523A34;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0.5em;
+}
+
+.pesquisa {
+    background-color:#3b2a25;
+    padding: 1.5em;
+}
+
+.barra-pesquisa {
+    margin-top: 5em;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 25px;
+    border: solid 3px #E5B25D;
+    background-color: transparent;
+}
+
+.barra-pesquisa::placeholder {
+    font-size: 14px;
+    color: #adadad; 
+}
+
+.menu-lateral {
+    background-color: #523A34;
+    width: 80%;
+    position: fixed;
+    top: 4em;
+    left: -100vw;
+    transition: 0.25s;
+}
+
+.menu-lateral_ativado {
+    left: 0;
+    transition: 0.25s;
+}
+
+.objetos-lista {
+    list-style: none;
+    text-decoration: none;
+    padding: 1.5em 0.3em;
+}
+
+.link-lateral {
+    text-decoration: none;
+    color: #82984E;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.link-lateral_ativo {
+    color: #a8c565;
+    font-weight: 700;
+    border-left: solid 3px #a8c565;
+}
+
+.imagem-lateral {
+    margin: -0.2em 0.3em;
+}
+
+.postagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.box-postagens {
+    background-color: #a8c565;
+    width: 90%;
+    border-radius: 25px;
+    
+    overflow: hidden;
+}
+
+.box-imagem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.box-autor {
+    font-weight: 700;
+    font-size: 28px;
+    color: #f0ffd8;
+    margin: 0 0.6em;
+   
+    
+}
+
+.box-legenda {
+    font-size: 24px;
+    font-weight: 300;
+    color: #f0ffd8;
+    margin: 1em 0.8em;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+
+.box-info {
+    display: flex;
+    font-size: 22px;
+    color: #f0ffd8;
+    margin-bottom: 1em;
+}
+
+
+
+
